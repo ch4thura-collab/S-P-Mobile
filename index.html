@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#07152e" />
+  <meta name="description" content="Official digital business card for S P Mobile. Connect with us on WhatsApp, Facebook, and TikTok, and view our bank details." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="S P Mobile | Digital Business Card" />
+  <meta property="og:description" content="Seamless connectivity, anytime, anywhere." />
+  <title>S P Mobile | Digital Business Card</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <style>
+    :root{color-scheme:dark;--bg:#061024;--card:#101e37;--card2:#0c1a34;--stroke:rgba(153,192,255,.16);--white:#f7faff;--muted:#95a8c5;--blue:#317bff;--cyan:#55d7ff;--green:#25d366}
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;min-height:100vh;background:var(--bg);color:var(--white);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.48}
+    body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:radial-gradient(ellipse 420px 460px at 48% -80px,rgba(29,103,253,.28),transparent 80%),radial-gradient(ellipse 360px 360px at 8% 48%,rgba(5,72,159,.13),transparent 86%),radial-gradient(ellipse 370px 500px at 97% 76%,rgba(4,115,222,.11),transparent 85%)}
+    .app{max-width:525px;margin:0 auto;padding:26px 20px max(32px,env(safe-area-inset-bottom))}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:25px}
+    .top-brand{display:flex;align-items:center;gap:10px;min-width:0}
+    .top-mark{width:32px;height:32px;display:grid;place-items:center;border-radius:10px;background:linear-gradient(145deg,#3084ff,#082bc1);font-weight:950;font-size:12px;letter-spacing:-.07em;box-shadow:0 6px 23px #0758ed50}
+    .top-brand-text{font-weight:800;font-size:12px;letter-spacing:.18em;white-space:nowrap}
+    .top-status{display:block;color:#8199be;font-size:9px;letter-spacing:.17em;font-weight:700;margin-top:1px}
+    button,a{font:inherit}a{text-decoration:none;color:inherit}
+    button{cursor:pointer}
+    .top-share{display:inline-flex;align-items:center;gap:8px;padding:9px 12px;background:#122442;border:1px solid var(--stroke);border-radius:11px;color:#dceaff;font-weight:750;font-size:12px;transition:background .2s ease,transform .2s ease}
+    .top-share:hover{background:#1a345e;transform:translateY(-1px)}
+    svg{display:block;flex:none}
+    .hero{position:relative;overflow:hidden;border-radius:28px;border:1px solid rgba(93,159,255,.28);background:linear-gradient(157deg,#152e59 0%,#102447 52%,#0b1b39 100%);padding:30px 25px 28px;text-align:center;box-shadow:0 30px 65px #01071240}
+    .hero::before{content:"";position:absolute;top:-145px;right:-120px;width:290px;height:290px;border-radius:50%;background:radial-gradient(circle,rgba(47,135,255,.25),transparent 72%);pointer-events:none}
+    .hero::after{content:"";position:absolute;bottom:-145px;left:-145px;width:270px;height:270px;border-radius:50%;border:1px solid rgba(86,151,250,.12);box-shadow:0 0 0 24px #347eff07,0 0 0 48px #347eff05;pointer-events:none}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid rgba(111,164,250,.23);border-radius:50px;color:#b1cdff;background:#19376680;font-size:10px;letter-spacing:.19em;font-weight:800;text-transform:uppercase}
+    .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:#64e3ff;box-shadow:0 0 10px #64e3ff}
+    .logo-wrap{position:relative;background:#fff;border-radius:18px;border:3px solid #ffffff;max-width:326px;margin:23px auto 24px;min-height:115px;display:flex;align-items:center;justify-content:center;padding:14px;box-shadow:0 15px 38px #00000027,0 0 0 1px #ffffff15;overflow:hidden}
+    .logo-wrap img{display:block;width:100%;height:auto;object-fit:contain}
+    h1{font-size:clamp(30px,7.5vw,38px);letter-spacing:.075em;font-weight:850;line-height:1.05;margin:0 0 12px}
+    .tagline{max-width:320px;margin:0 auto;color:#afc4e8;font-size:13px;font-weight:450}
+    .wave{width:62px;height:3px;border-radius:5px;background:linear-gradient(90deg,#3982ff,#55e0ff);margin:20px auto 18px;box-shadow:0 0 20px #3982ff40}
+    .availability{display:inline-flex;align-items:center;gap:7px;color:#d0e3ff;font-size:11px;font-weight:650}
+    .availability::before{content:"";height:7px;width:7px;border-radius:100%;background:#29cf8b;box-shadow:0 0 0 4px #22c87520}
+    .section-heading{display:flex;align-items:center;gap:12px;margin:28px 1px 13px}
+    .section-heading .caption{white-space:nowrap;color:#89a3ca;font-size:10px;text-transform:uppercase;letter-spacing:.26em;font-weight:850}
+    .section-heading::after,.section-heading::before{content:"";height:1px;flex:1;background:linear-gradient(90deg,rgba(157,191,250,.18),rgba(157,191,250,0))}
+    .section-heading::before{max-width:26px;background:linear-gradient(270deg,rgba(157,191,250,.18),rgba(157,191,250,0))}
+    .links{display:grid;gap:11px}
+    .social{display:flex;align-items:center;gap:15px;padding:15px 16px;min-height:78px;border:1px solid var(--stroke);border-radius:19px;background:linear-gradient(135deg,#142644,#101e38);box-shadow:0 5px 15px #00000018;transition:transform .18s ease,border-color .18s ease,background .18s ease;outline-offset:4px}
+    .social:hover{transform:translateY(-2px);border-color:#5291ff80;background:#172d51}
+    .social:active{transform:translateY(0)}
+    .social-icon{height:48px;width:48px;display:grid;place-items:center;border-radius:15px;flex:none}
+    .social.fb .social-icon{background:#1969dc24;color:#448dff}
+    .social.wa .social-icon{background:#1bc96720;color:#30df83}
+    .social.tk .social-icon{background:#0a1325;color:#f8fcff}
+    .social-meta{min-width:0;flex:1}.social-name{display:block;font-weight:790;font-size:15px;letter-spacing:-.015em}
+    .social-desc{display:block;font-size:11px;color:#93aaca;margin-top:3px}
+    .arrow{color:#7795c6;transition:transform .18s ease}.social:hover .arrow{transform:translateX(3px);color:#b4d0ff}
+    .bank{border:1px solid rgba(111,161,242,.21);background:linear-gradient(155deg,#122546 0%,#0c1c35 100%);border-radius:22px;padding:20px;box-shadow:0 10px 29px #00000023}
+    .bank-head{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+    .bank-icon{display:grid;place-items:center;flex:none;height:46px;width:46px;border-radius:15px;background:#2681ec25;color:#68b8ff}
+    .bank-title{font-size:16px;font-weight:790;letter-spacing:-.02em}.bank-subtitle{display:block;font-size:10px;color:#91a7c8;margin-top:3px}
+    .bank-fields{display:grid;gap:17px}.field-label{display:block;font-size:10px;color:#86a0c6;letter-spacing:.16em;font-weight:750;margin-bottom:5px}
+    .field-val{display:block;font-size:15px;font-weight:600;letter-spacing:.02em;overflow-wrap:anywhere}
+    .number-row{display:flex;align-items:end;justify-content:space-between;gap:12px}
+    .account-num{font-size:24px;font-weight:800;letter-spacing:.055em;line-height:1.12;font-variant-numeric:tabular-nums}
+    .copy{display:flex;align-items:center;gap:7px;padding:10px 12px;border:1px solid rgba(172,202,247,.23);border-radius:12px;background:#1e3657;color:#eaf2ff;font-size:12px;font-weight:720;white-space:nowrap;transition:background .2s ease}
+    .copy:hover{background:#29496e}
+    .note{display:flex;gap:7px;align-items:start;color:#8da7ca;font-size:11px;line-height:1.5;margin-top:14px;padding:0 4px}
+    .note svg{margin-top:2px;color:#6ba4ff}
+    .quick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+    .quick-button{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:47px;border-radius:13px;border:1px solid rgba(104,167,255,.25);background:#102443;color:#daeaff;font-weight:750;font-size:12px;transition:background .2s ease,transform .2s ease}
+    .quick-button:hover{background:#19365e;transform:translateY(-1px)}
+    .quick-button.primary{background:linear-gradient(110deg,#2268e6,#267df7);color:white;border-color:#458effaa;box-shadow:0 8px 30px #135cea2e}
+    .quick-button.primary:hover{background:linear-gradient(110deg,#3078f7,#3190ff)}
+    .footer{display:flex;align-items:center;justify-content:center;gap:7px;font-size:10px;letter-spacing:.11em;color:#637a9e;margin-top:27px;text-align:center}
+    .footer svg{color:#548ed9}
+    .toast{position:fixed;z-index:1000;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translate(-50%,20px);min-width:210px;max-width:calc(100vw - 32px);padding:12px 19px;border-radius:12px;background:#eef5ff;color:#102044;font-size:13px;font-weight:750;text-align:center;box-shadow:0 12px 35px #0009;opacity:0;pointer-events:none;transition:opacity .23s ease,transform .23s ease}
+    .toast.show{opacity:1;transform:translate(-50%,0)}
+    :focus-visible{outline:3px solid #67d7ff;outline-offset:3px}
+    @media(min-width:650px){.app{padding-top:34px;padding-bottom:48px}.hero{padding:38px 36px 34px}.logo-wrap{max-width:335px}}
+    @media(max-width:370px){.app{padding-inline:13px}.hero{padding-inline:16px}.logo-wrap{padding:10px}.social{padding:13px}.account-num{font-size:20px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="top-brand">
+        <div class="top-mark" aria-hidden="true">SP</div>
+        <div><div class="top-brand-text">S P MOBILE</div><span class="top-status">OFFICIAL DIGITAL CARD</span></div>
+      </div>
+      <button class="top-share" id="shareTop" type="button" aria-label="Share this website">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.7 13.4 6.6 4.2M15.3 6.5l-6.6 4"/></svg>
+        Share
+      </button>
+    </header>
+
+    <section class="hero" aria-label="S P Mobile business profile">
+      <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Welcome to our digital card</span>
+      <div class="logo-wrap"><img src="assets/sp-mobile-logo.webp" alt="S P Mobile official logo" width="1166" height="388" /></div>
+      <h1>S P MOBILE</h1>
+      <p class="tagline">Seamless connectivity, anytime, anywhere.</p>
+      <div class="wave" aria-hidden="true"></div>
+      <span class="availability">Let's stay connected</span>
+    </section>
+
+    <section aria-labelledby="connect-label">
+      <div class="section-heading"><span class="caption" id="connect-label">Connect with us</span></div>
+      <div class="links">
+        <a class="social wa" href="https://wa.me/94760692386" target="_blank" rel="noopener noreferrer" aria-label="Chat with S P Mobile on WhatsApp">
+          <span class="social-icon" aria-hidden="true"><svg width="27" height="27" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.75 11.75 0 0 0 2.2 17.6L.5 23.5l6.05-1.6A11.75 11.75 0 1 0 20.5 3.5ZM12 21.4a9.67 9.67 0 0 1-4.94-1.35l-.36-.22-3.58.94.96-3.48-.24-.36a9.64 9.64 0 1 1 8.16 4.47Zm5.28-7.22c-.29-.15-1.73-.85-2-.94-.27-.1-.46-.15-.65.15s-.75.94-.92 1.14c-.17.19-.34.22-.63.07-.3-.15-1.23-.45-2.34-1.44-.86-.77-1.44-1.72-1.6-2.01-.17-.3-.02-.46.12-.61.13-.13.3-.34.44-.51.14-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.07-.15-.65-1.57-.89-2.15-.24-.56-.48-.48-.65-.49h-.55c-.19 0-.49.08-.75.37-.26.3-.98.97-.98 2.36 0 1.4 1.01 2.75 1.15 2.95.14.2 1.99 3.04 4.83 4.27.68.29 1.21.46 1.62.59.68.22 1.3.19 1.8.11.55-.08 1.73-.7 1.97-1.39.24-.68.24-1.26.17-1.38-.08-.12-.27-.19-.56-.34Z"/></svg></span>
+          <span class="social-meta"><span class="social-name">WhatsApp</span><span class="social-desc">Chat with us directly</span></span>
+          <svg class="arrow" width="19" height="19" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+        <a class="social fb" href="https://www.facebook.com/people/sp-mobile/61581372867503/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Visit S P Mobile on Facebook">
+          <span class="social-icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.98H7.9V12h2.54V9.8c0-2.51 1.49-3.9 3.77-3.9 1.1 0 2.25.2 2.25.2v2.47H15.2c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.9h-2.34v6.98A10 10 0 0 0 22 12Z"/></svg></span>
+          <span class="social-meta"><span class="social-name">Facebook</span><span class="social-desc">Follow our official page</span></span>
+          <svg class="arrow" width="19" height="19" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+        <a class="social tk" href="https://www.tiktok.com/@sp__mobile?_r=1&amp;_t=ZS-98PoaCHHhDd" target="_blank" rel="noopener noreferrer" aria-label="Visit S P Mobile on TikTok">
+          <span class="social-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M16.68 2h-3.1v12.26a3.32 3.32 0 1 1-2.85-3.29V7.84a6.43 6.43 0 1 0 6.06 6.42V8.04a8.48 8.48 0 0 0 4.72 1.43V6.34a5.37 5.37 0 0 1-4.83-4.34Z"/></svg></span>
+          <span class="social-meta"><span class="social-name">TikTok</span><span class="social-desc">Watch our latest videos</span></span>
+          <svg class="arrow" width="19" height="19" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <section aria-labelledby="bank-label">
+      <div class="section-heading"><span class="caption" id="bank-label">Bank details</span></div>
+      <div class="bank">
+        <div class="bank-head">
+          <div class="bank-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-6 9 6M4 10h16M5 20V11m5 9v-9m4 9v-9m5 9v-9M3 21h18M3 17h18"/></svg></div>
+          <div><div class="bank-title">Commercial Bank</div><span class="bank-subtitle">Payment account details</span></div>
+        </div>
+        <div class="bank-fields">
+          <div><span class="field-label">ACCOUNT NAME</span><span class="field-val">J.S piyumal</span></div>
+          <div class="number-row">
+            <div><span class="field-label">ACCOUNT NUMBER</span><span class="field-val account-num" id="accountNumber">8026403874</span></div>
+            <button class="copy" id="copyAccount" type="button" aria-label="Copy bank account number">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+              <span id="copyLabel">Copy</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p class="note"><svg width="15" height="15" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></svg>Please verify the account name and number before making a payment.</p>
+    </section>
+
+    <div class="quick" aria-label="Quick actions">
+      <button type="button" class="quick-button" id="saveContact"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 17v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></svg>Save Contact</button>
+      <a class="quick-button primary" href="https://wa.me/94760692386" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg>Message Us</a>
+    </div>
+    <footer class="footer"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m12 2 9 5v10l-9 5-9-5V7l9-5Z"/><path d="m7 13 3 3 7-8"/></svg>S P MOBILE · DIGITAL BUSINESS CARD</footer>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script>
+    (() => {
+      const number='8026403874';
+      const toastEl=document.getElementById('toast');
+      let toastTimer;
+      const toast=(message)=>{
+        toastEl.textContent=message;
+        toastEl.classList.add('show');
+        clearTimeout(toastTimer);
+        toastTimer=setTimeout(()=>toastEl.classList.remove('show'),2600);
+      };
+      async function copyText(value){
+        if(navigator.clipboard && window.isSecureContext){
+          try{await navigator.clipboard.writeText(value);return true}catch(error){}
+        }
+        const input=document.createElement('textarea');
+        input.value=value;
+        input.setAttribute('readonly','');
+        input.style.position='fixed';input.style.left='-9999px';
+        document.body.appendChild(input);input.select();
+        let copied=false;
+        try{copied=document.execCommand('copy')}catch(error){}
+        input.remove();return copied;
+      }
+      document.getElementById('copyAccount').addEventListener('click',async()=>{
+        const copied=await copyText(number);
+        const label=document.getElementById('copyLabel');
+        if(copied){label.textContent='Copied!';toast('Account number copied');setTimeout(()=>label.textContent='Copy',2300)}
+        else{toast('Unable to copy. Long press the number to copy.')}
+      });
+      document.getElementById('shareTop').addEventListener('click',async()=>{
+        if(location.protocol==='file:'){toast('Publish online to share your website link');return}
+        const data={title:'S P Mobile',text:'S P Mobile · Digital Business Card',url:location.href};
+        if(navigator.share){try{await navigator.share(data);return}catch(error){if(error.name==='AbortError')return}}
+        toast((await copyText(location.href))?'Website link copied':'Unable to share this page');
+      });
+      document.getElementById('saveContact').addEventListener('click',()=>{
+        const vcard=['BEGIN:VCARD','VERSION:3.0','FN:S P Mobile','ORG:S P Mobile','TEL;TYPE=CELL:+94760692386','URL:https://www.facebook.com/people/sp-mobile/61581372867503/','END:VCARD'].join('\r\n');
+        const blob=new Blob([vcard],{type:'text/vcard;charset=utf-8'});
+        const url=URL.createObjectURL(blob);
+        const a=document.createElement('a');a.href=url;a.download='SP-Mobile.vcf';
+        document.body.appendChild(a);a.click();a.remove();
+        setTimeout(()=>URL.revokeObjectURL(url),2000);
+        toast('Contact file downloaded');
+      });
+    })();
+  </script>
+</body>
+</html>
